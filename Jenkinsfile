@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         image_name = "abrar33001/demo-hello"
-        PATH ="C:/Users/abrar ul haq/AppData/Local/Programs/DockerDesktop/resources/bin/docker"
-    }
+        PATH ="C:/Users/abrar ul haq/AppData/Local/Programs/DockerDesktop/resources/bin;${env.PATH}"
+            }
 
     stages {
         stage("git-checkout") {
