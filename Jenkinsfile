@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         image_name = "abrar33001/demo-hello"
-        PATH ="C:/Users/abrar ul haq/AppData/Local/Programs/DockerDesktop/resources/bin/docker.exe"
+        PATH ="C:/Users/abrar ul haq/AppData/Local/Programs/DockerDesktop/resources/bin/docker"
     }
 
     stages {
